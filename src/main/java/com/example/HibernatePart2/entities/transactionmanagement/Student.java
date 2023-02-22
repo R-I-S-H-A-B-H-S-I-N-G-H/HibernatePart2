@@ -1,4 +1,4 @@
-package com.example.HibernatePart2.entities;
+package com.example.HibernatePart2.entities.transactionmanagement;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

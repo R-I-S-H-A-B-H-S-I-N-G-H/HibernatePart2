@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 
-import com.example.HibernatePart2.entities.Student;
+import com.example.HibernatePart2.entities.transactionmanagement.Student;
 
 public interface StudentRepo extends CrudRepository<Student, Long> {
     @Query("from Student")
